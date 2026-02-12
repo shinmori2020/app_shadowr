@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(npm create:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "Bash(cat:*)",
+      "Bash(npm run build:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Shadowr - Box Shadow CSS Generator\n\nShadowrは高度なbox-shadow CSS生成ツールです。\n\n主な機能:\n- レイヤーベースのシャドウ編集（最大6レイヤー）\n- リアルタイムプレビュー（単体・カード・ボタン・複数モード）\n- プリセットライブラリ（強度別・色別・方向別）\n- コード出力（CSS、Tailwind、SCSS、CSS変数、React）\n- エクスポート機能（PNG、SVG、CSS）\n- トランジション設定\n- 履歴管理・スナップショット\n- カスタムプリセット保存\n- ダークモード対応\n- レスポンシブデザイン\n\n技術スタック: React + Vite + Tailwind CSS v4\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
